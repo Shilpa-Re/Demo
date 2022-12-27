@@ -1,3 +1,10 @@
 $ git config --global user.name "Shilpa-Re"
 $ git config --global user.email "Shilpa212r@gmail.com"
 $ git config --global user.password "Shilpa21296"
+
+how to clone:
+copy the SSH code from Repository(code)
+use this commend to add at git bash
+$ git clone git@github.com:Shilpa-Re/Demo.git
+git clone(paste the ssh key commend).
+
