@@ -6,5 +6,63 @@ how to clone:
 copy the SSH code from Repository(code)
 use this commend to add at git bash
 $ git clone git@github.com:Shilpa-Re/Demo.git
-git clone(paste the ssh key commend).
+git clone(paste the ssh key commend)
+
+How to add new Repository to the git hub
+
+goto + in git, --> select new repositoty -->give repo name
+make it public-> Add a ReadMe file--> select create repository
+
+How to add/ upload a file to the github
+
+goto add files-> select upload files--> choose your file from pc
+-->commite changes
+
+
+In Industry there is a rules that we donot make any changes in 
+main branch, so that we neew to create a sub branch and make the changes 
+in sub branch. and then finally we need to ask the team manager/ head
+to mearge 
+
+steps to create a new sub branch 
+
+-->copy the SSH
+-->open git bash in proj folder
+-->type $git clone (past the SSH) -->enter
+
+--> $ git branch ( used to check how many branches are there in git 
+and it will show the branch name to represent where we are doing the changes
+always make the changes in sub branch not in main branch)
+
+
+first create a new file in your project, for examplae dev1.txt
+
+$ git branch(branch _ name)
+--> $ git branch dev1  (this commend will create a new branch, 
+dev1 is the sub branch)
+
+to change the branch/ to shift branch from current branch
+$ git checkout (branch_name)
+--> $ git checkout dev1
+	>switched to branch dev1
+
+
+To see/ check any changes has been done in the file (example:ev1.txt)
+--> git log 
+
+-->git add -A
+-->git commit -m"done"
+-->git push (after this it will display one commend, copy that)
+--> $ git push (past the copied commend) give enter
+
+the sub branch as been created in the new reposatory project main
+
+After doing all these steps in sub branch we need to ask for merge to that fallow steps
+compare--> create a pull regquest--> merge & confirm merge
+
+
+
+
+
+
 
